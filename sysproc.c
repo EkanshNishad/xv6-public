@@ -89,3 +89,11 @@ sys_uptime(void)
   release(&tickslock);
   return xticks;
 }
+
+//return hello world string
+//
+int
+sys_hello(void)
+{
+	return 2020;
+}
